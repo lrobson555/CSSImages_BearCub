@@ -4,6 +4,8 @@ A bear cub built entirely using HTML and SASS for Day 1 of the #dailycssimages c
 
 [Read More](http://www.lauracodes.com/daily-css-images-day-1/) - [Demo](http://playground.lauracodes.com/css-images/bear-cub/) - [Edit on CodePen](http://codepen.io/lrobson555/pen/vgoEjp)
 
+![Daily CSS Images Challenge - Bear Cub](http://www.lauracodes.com/wp-content/uploads/2017/02/bear-cub.jpg)
+
 ## Credits
 * Mike Mangialardi at [codingartist.io](http://codingartist.io/) for #dailycssimages challenge
 

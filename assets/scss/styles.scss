@@ -1,0 +1,230 @@
+$lc-blue: #82DDF0;
+$lc-brown: #654236;
+$lc-tan: #DB995A;
+$lc-pale-grey: #ececec;
+$black: #000;
+$white: #fff;
+
+body {
+    background-color: $lc-pale-grey;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    height: 100%;
+}
+
+.image {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background-color: $lc-blue;
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 20px solid $white;
+    border-radius: 1000px;
+    overflow: hidden;
+}
+
+.body {
+    background-color: $lc-brown;
+    height: 400px;
+    position: absolute;
+    bottom: 0;
+    width: 320px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 40% 40% 0 0;
+}
+
+.left-ear,
+.right-ear {
+    background-color: $lc-brown;
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+    position: absolute;
+}
+
+.left-ear {
+    top: 93px;
+    left: 65px;
+}
+
+.right-ear {
+    top: 93px;
+    left: 67px;
+    left: 310px;
+}
+
+.left-ear-inner,
+.right-ear-inner {
+    background-color: $lc-tan;
+    height: 60px;
+    border-radius: 100%;
+    width: 60px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.snout {
+    background-color: $lc-tan;
+    height: 140px;
+    width: 140px;
+    border-radius: 60px;
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.nose {
+    background: $black;
+    height: 40px;
+    width: 70px;
+    border-radius: 30% 30% 50% 50%;
+    top: 25px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.nose-shine {
+    background-color: white;
+    height: 8px;
+    width: 15px;
+    border-radius: 100%;
+    top: 6px;
+    position: absolute;
+    right: 10px;
+}
+
+.mouth {
+    background-color: $black;
+    height: 7px;
+    width: 50px;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 0 0 100% 100%;
+}
+
+.left-eye,
+.right-eye {
+    background-color: $black;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: absolute;
+    top: 111px;
+}
+
+.left-eye {
+    left: 28%;
+}
+
+.right-eye {
+    right: 28%;
+}
+
+.left-eye-shine,
+.right-eye-shine {
+    height: 6px;
+    width: 6px;
+    background-color: white;
+    border-radius: 100%;
+    top: 6px;
+    position: absolute;
+    right: 7px;
+}
+
+.fur-head-left,
+.fur-head-right,
+.fur-body-left-top,
+.fur-body-left-bottom,
+.fur-body-right-top,
+.fur-body-right-bottom {
+    background-color: $lc-brown;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    position: absolute;
+}
+
+.fur-head-left {
+    height: 20px;
+    width: 20px;
+    top: 84px;
+    left: 45%;
+    transform: rotate(-20deg);
+}
+
+.fur-head-right {
+    height: 30px;
+    width: 25px;
+    top: 84px;
+    left:50%;
+    transform: rotate(10deg);
+}
+
+.fur-body-left-top {
+    height: 30px;
+    width: 25px;
+    top: 237px;
+    left: 15%;
+    transform: rotate(-50deg);
+}
+
+.fur-body-left-bottom {
+    height: 20px;
+    width: 25px;
+    top: 262px;
+    left: 15%;
+    transform: rotate(-70deg);
+}
+
+.fur-body-right-top {
+    height: 30px;
+    width: 25px;
+    top: 237px;
+    right: 15%;
+    transform: rotate(50deg);
+}
+
+.fur-body-right-bottom {
+    height: 20px;
+    width: 25px;
+    top: 262px;
+    right: 15%;
+    transform: rotate(70deg);
+}
+
+.lip {
+    height: 65px;
+    width: 4px;
+    background: $black;
+    left: 50%;
+    bottom: 36px;
+    position: absolute;
+    transform: translateX(-50%);
+}
+
+.left-arm,
+.right-arm {
+    background-color: darken($lc-brown, 5%);
+    height: 700px;
+    width: 328px;
+    border-radius: 100%;
+    position: absolute;
+    top: 320px;
+}
+
+.left-arm {
+    left: 0;
+}
+
+.right-arm {
+    right: 0;
+}

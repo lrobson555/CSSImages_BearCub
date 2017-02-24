@@ -19,4 +19,4 @@ A bear cub built entirely using HTML and SASS for Day 1 of the #dailycssimages c
 ## License
 Feel free to use this code in your personal or commercial projects, and don't forget to drop me a link so I can see!
 
-Copyright (c) 2017 Laura Robson. Licensed under the [MIT License](https://github.com/lrobson555/CSSImages_BearCub/master/license.txt)
+Copyright (c) 2017 Laura Robson. Licensed under the [MIT License](https://github.com/lrobson555/CSSImages_BearCub/blob/master/license.txt)
